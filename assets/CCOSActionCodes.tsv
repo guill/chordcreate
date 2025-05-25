@@ -1,0 +1,1026 @@
+SWITCH LOCATIONS ARE ON THE SECOND TAB!!!					
+Code Id (Decimal)	Code Id (Hexadecimal)	Type	UTF-8 Representation of Action	Action Description	Notes
+0	0x0000	None		10-bit Action Codes 0x00	
+1	0x0001	None		10-bit Action Codes 0x01	
+2	0x0002	None		10-bit Action Codes 0x02	
+3	0x0003	None		10-bit Action Codes 0x03	
+4	0x0004	None		10-bit Action Codes 0x04	
+5	0x0005	None		10-bit Action Codes 0x05	
+6	0x0006	None		10-bit Action Codes 0x06	
+7	0x0007	None		10-bit Action Codes 0x07	
+8	0x0008	None		10-bit Action Codes 0x08	
+9	0x0009	None		10-bit Action Codes 0x09	
+10	0x000A	None		10-bit Action Codes 0x0A	
+11	0x000B	None		10-bit Action Codes 0x0B	
+12	0x000C	None		10-bit Action Codes 0x0C	
+13	0x000D	None		10-bit Action Codes 0x0D	
+14	0x000E	None		10-bit Action Codes 0x0E	
+15	0x000F	None		10-bit Action Codes 0x0F	
+16	0x0010	None		10-bit Action Codes 0x10	
+17	0x0011	None		10-bit Action Codes 0x11	
+18	0x0012	None		10-bit Action Codes 0x12	
+19	0x0013	None		10-bit Action Codes 0x13	
+20	0x0014	None		10-bit Action Codes 0x14	
+21	0x0015	None		10-bit Action Codes 0x15	
+22	0x0016	None		10-bit Action Codes 0x16	
+23	0x0017	None		10-bit Action Codes 0x17	
+24	0x0018	None		10-bit Action Codes 0x18	
+25	0x0019	None		10-bit Action Codes 0x19	
+26	0x001A	None		10-bit Action Codes 0x1A	
+27	0x001B	None		10-bit Action Codes 0x1B	
+28	0x001C	None		10-bit Action Codes 0x1C	
+29	0x001D	None		10-bit Action Codes 0x1D	
+30	0x001E	None		10-bit Action Codes 0x1E	
+31	0x001F	None		10-bit Action Codes 0x1F	
+32	0x0020	ASCII	SPACE	Space	While SPACE is used for keymaps and chord, just a " " is used in chord outputs. This action is unique in this way. Technically it is 'printable', but it is not visible.
+33	0x0021	ASCII	!	Exclamation Point	
+34	0x0022	ASCII	"	Double Quote	
+35	0x0023	ASCII	#	Hash Symbol	
+36	0x0024	ASCII	$	Dollar Sign	
+37	0x0025	ASCII	%	Percent	
+38	0x0026	ASCII	&	Amperstand	
+39	0x0027	ASCII	'	Single Quote	
+40	0x0028	ASCII	(	Left Parenthesis	
+41	0x0029	ASCII	)	Right Parenthesis	
+42	0x002A	ASCII	*	Asterisk	
+43	0x002B	ASCII	+	Plus	
+44	0x002C	ASCII	,	Comma	
+45	0x002D	ASCII	-	Minus	
+46	0x002E	ASCII	.	Period	
+47	0x002F	ASCII	/	Forward Slash	
+48	0x0030	ASCII	0	Zero	
+49	0x0031	ASCII	1	One	
+50	0x0032	ASCII	2	Two	
+51	0x0033	ASCII	3	Three	
+52	0x0034	ASCII	4	Four	
+53	0x0035	ASCII	5	Five	
+54	0x0036	ASCII	6	Six	
+55	0x0037	ASCII	7	Seven	
+56	0x0038	ASCII	8	Eight	
+57	0x0039	ASCII	9	Nine	
+58	0x003A	ASCII	:	Colon	
+59	0x003B	ASCII	;	Semicolon	
+60	0x003C	ASCII	<	Less Than	
+61	0x003D	ASCII	=	Equals	
+62	0x003E	ASCII	>	Greater Than	
+63	0x003F	ASCII	?	Question Mark	
+64	0x0040	ASCII	@	At Symbol	
+65	0x0041	ASCII	A	Uppercase A	
+66	0x0042	ASCII	B	Uppercase B	
+67	0x0043	ASCII	C	Uppercase C	
+68	0x0044	ASCII	D	Uppercase D	
+69	0x0045	ASCII	E	Uppercase E	
+70	0x0046	ASCII	F	Uppercase F	
+71	0x0047	ASCII	G	Uppercase G	
+72	0x0048	ASCII	H	Uppercase H	
+73	0x0049	ASCII	I	Uppercase I	
+74	0x004A	ASCII	J	Uppercase J	
+75	0x004B	ASCII	K	Uppercase K	
+76	0x004C	ASCII	L	Uppercase L	
+77	0x004D	ASCII	M	Uppercase M	
+78	0x004E	ASCII	N	Uppercase N	
+79	0x004F	ASCII	O	Uppercase O	
+80	0x0050	ASCII	P	Uppercase P	
+81	0x0051	ASCII	Q	Uppercase Q	
+82	0x0052	ASCII	R	Uppercase R	
+83	0x0053	ASCII	S	Uppercase S	
+84	0x0054	ASCII	T	Uppercase T	
+85	0x0055	ASCII	U	Uppercase U	
+86	0x0056	ASCII	V	Uppercase V	
+87	0x0057	ASCII	W	Uppercase W	
+88	0x0058	ASCII	X	Uppercase X	
+89	0x0059	ASCII	Y	Uppercase Y	
+90	0x005A	ASCII	Z	Uppercase Z	
+91	0x005B	ASCII	[	Left Bracket	
+92	0x005C	ASCII	\	Backslash	
+93	0x005D	ASCII	]	Right Bracket	
+94	0x005E	ASCII	^	Carrot	
+95	0x005F	ASCII	_	Underscore	
+96	0x0060	ASCII	`	Grave Mark	
+97	0x0061	ASCII	a	Lowercase a	Lowercase ASCII letters are needed for the linguistics processing
+98	0x0062	ASCII	b	Lowercase b	
+99	0x0063	ASCII	c	Lowercase c	
+100	0x0064	ASCII	d	Lowercase d	
+101	0x0065	ASCII	e	Lowercase e	
+102	0x0066	ASCII	f	Lowercase f	
+103	0x0067	ASCII	g	Lowercase g	
+104	0x0068	ASCII	h	Lowercase h	
+105	0x0069	ASCII	i	Lowercase i	
+106	0x006A	ASCII	j	Lowercase j	
+107	0x006B	ASCII	k	Lowercase k	
+108	0x006C	ASCII	l	Lowercase l	
+109	0x006D	ASCII	m	Lowercase m	
+110	0x006E	ASCII	n	Lowercase n	
+111	0x006F	ASCII	o	Lowercase o	
+112	0x0070	ASCII	p	Lowercase p	
+113	0x0071	ASCII	q	Lowercase q	
+114	0x0072	ASCII	r	Lowercase r	
+115	0x0073	ASCII	s	Lowercase s	
+116	0x0074	ASCII	t	Lowercase t	
+117	0x0075	ASCII	u	Lowercase u	
+118	0x0076	ASCII	v	Lowercase v	
+119	0x0077	ASCII	w	Lowercase w	
+120	0x0078	ASCII	x	Lowercase x	
+121	0x0079	ASCII	y	Lowercase y	
+122	0x007A	ASCII	z	Lowercase z	
+123	0x007B	ASCII	{	Left Curly Brace	
+124	0x007C	ASCII	|	Pipe	
+125	0x007D	ASCII	}	Right Curly Brace	
+126	0x007E	ASCII	~	Tilde	
+127	0x007F	ASCII	DEL	Delete	
+128	0x0080	CP-1252	€	Uppercase cedilla	
+129	0x0081			HOP (High Octet Preset)	
+130	0x0082	CP-1252	‚	Single Low-9 Quotation Mark	
+131	0x0083	CP-1252	ƒ	Latin Small Letter f with Hook; Florin	
+132	0x0084	CP-1252	„	Double Low-9 Quotation Mark	
+133	0x0085	CP-1252	…	Horizontal Ellipsis	
+134	0x0086	CP-1252	†	Dagger	
+135	0x0087	CP-1252	‡	Double Dagger	
+136	0x0088	CP-1252	ˆ	Circumflex	
+137	0x0089	CP-1252	‰	Per Mile	
+138	0x008A	CP-1252	Š	Captial S Caron	
+139	0x008B	CP-1252	‹	Left Guillemet	
+140	0x008C	CP-1252	Œ	Captial Ligature OE	
+141	0x008D			RI (Reverse Index)	
+142	0x008E	CP-1252	Ž	Captial Z Caron	
+143	0x008F			SS3 (Single-Shift G3)	
+144	0x0090			DCS (Device Control String)	
+145	0x0091	CP-1252	‘	Single Quote Left	
+146	0x0092	CP-1252	’	Single Quote Right	
+147	0x0093	CP-1252	“	Double Quote Left	
+148	0x0094	CP-1252	”	Double Quote Right	
+149	0x0095	CP-1252	•	Bullet	
+150	0x0096	CP-1252	–	En Dash	
+151	0x0097	CP-1252	—	Em Dash	
+152	0x0098	CP-1252	˜	Small Tilde	
+153	0x0099	CP-1252	™	Trademark	
+154	0x009A	CP-1252	š	Small s Carson	
+155	0x009B	CP-1252	›	Right Guillement	
+156	0x009C	CP-1252	œ	Small Ligature oe	
+157	0x009D	CP-1252		Operating System Command	
+158	0x009E	CP-1252	ž	Small Z Caron	
+159	0x009F	CP-1252	Ÿ	Capital Y Diaresis	
+160	0x00A0	CP-1252	 	No Break Space	
+161	0x00A1	CP-1252	¡	Inverted Exclamation	
+162	0x00A2	CP-1252	¢	Cent	
+163	0x00A3	CP-1252	£	Pound	
+164	0x00A4	CP-1252	¤	Currency	
+165	0x00A5	CP-1252	¥	Yen	
+166	0x00A6	CP-1252	¦	Broken Bar	
+167	0x00A7	CP-1252	§	Section	
+168	0x00A8	CP-1252	¨	Diaresis	
+169	0x00A9	CP-1252	©	Copyright	
+170	0x00AA	CP-1252	ª	Feminine Ordinal	
+171	0x00AB	CP-1252	«	Double Left Guillement	
+172	0x00AC	CP-1252	¬	Not	
+173	0x00AD	CP-1252	­	Soft Hyphen	
+174	0x00AE	CP-1252	®	Registered	
+175	0x00AF	CP-1252	¯	Macron	
+176	0x00B0	CP-1252	°	Degree	
+177	0x00B1	CP-1252	±	Plus Minus	
+178	0x00B2	CP-1252	²	Superscript Two	
+179	0x00B3	CP-1252	³	Superscript Three	
+180	0x00B4	CP-1252	´	Acute	
+181	0x00B5	CP-1252	µ	Micro	
+182	0x00B6	CP-1252	¶	Pilcrow	
+183	0x00B7	CP-1252	·	Middle Dot	
+184	0x00B8	CP-1252	¸	Cedilla	
+185	0x00B9	CP-1252	¹	Superscript One	
+186	0x00BA	CP-1252	º	Masculine Ordinal	
+187	0x00BB	CP-1252	»	Double Right Guillement	
+188	0x00BC	CP-1252	¼	One Quarter Fraction	
+189	0x00BD	CP-1252	½	One Half Fraction	
+190	0x00BE	CP-1252	¾	Three Quarters Fraction	
+191	0x00BF	CP-1252	¿	Inverted Question	
+192	0x00C0	CP-1252	À	Captial A Grave	
+193	0x00C1	CP-1252	Á		
+194	0x00C2	CP-1252	Â		
+195	0x00C3	CP-1252	Ã		
+196	0x00C4	CP-1252	Ä		
+197	0x00C5	CP-1252	Å		
+198	0x00C6	CP-1252	Æ		
+199	0x00C7	CP-1252	Ç		
+200	0x00C8	CP-1252	È		
+201	0x00C9	CP-1252	É		
+202	0x00CA	CP-1252	Ê		
+203	0x00CB	CP-1252	Ë		
+204	0x00CC	CP-1252	Ì		
+205	0x00CD	CP-1252	Í		
+206	0x00CE	CP-1252	Î		
+207	0x00CF	CP-1252	Ï		
+208	0x00D0	CP-1252	Ð		
+209	0x00D1	CP-1252	Ñ		
+210	0x00D2	CP-1252	Ò		
+211	0x00D3	CP-1252	Ó		
+212	0x00D4	CP-1252	Ô		
+213	0x00D5	CP-1252	Õ		
+214	0x00D6	CP-1252	Ö		
+215	0x00D7	CP-1252	×		
+216	0x00D8	CP-1252	Ø		
+217	0x00D9	CP-1252	Ù		
+218	0x00DA	CP-1252	Ú		
+219	0x00DB	CP-1252	Û		
+220	0x00DC	CP-1252	Ü		
+221	0x00DD	CP-1252	Ý		
+222	0x00DE	CP-1252	Þ		
+223	0x00DF	CP-1252	ß		
+224	0x00E0	CP-1252	à		
+225	0x00E1	CP-1252	á		
+226	0x00E2	CP-1252	â		
+227	0x00E3	CP-1252	ã		
+228	0x00E4	CP-1252	ä		
+229	0x00E5	CP-1252	å		
+230	0x00E6	CP-1252	æ		
+231	0x00E7	CP-1252	ç		
+232	0x00E8	CP-1252	è		
+233	0x00E9	CP-1252	é		
+234	0x00EA	CP-1252	ê		
+235	0x00EB	CP-1252	ë		
+236	0x00EC	CP-1252	ì		
+237	0x00ED	CP-1252	í		
+238	0x00EE	CP-1252	î		
+239	0x00EF	CP-1252	ï		
+240	0x00F0	CP-1252	ð		
+241	0x00F1	CP-1252	ñ		
+242	0x00F2	CP-1252	ò		
+243	0x00F3	CP-1252	ó		
+244	0x00F4	CP-1252	ô		
+245	0x00F5	CP-1252	õ		
+246	0x00F6	CP-1252	ö		
+247	0x00F7	CP-1252	÷		
+248	0x00F8	CP-1252	ø		
+249	0x00F9	CP-1252	ù		
+250	0x00FA	CP-1252	ú		
+251	0x00FB	CP-1252	û		
+252	0x00FC	CP-1252	ü		
+253	0x00FD	CP-1252	ý		
+254	0x00FE	CP-1252	þ		
+255	0x00FF	CP-1252	ÿ	Small y Diaeresis	
+256	0x0100	Raw HID Keycode	KSC_00	No Key Pressed	
+257	0x0101	Raw HID Keycode	KSC_01	Keyboard Error Roll Over	
+258	0x0102	Raw HID Keycode	KSC_02	Keyboard POST Fail	
+259	0x0103	Raw HID Keycode	KSC_03	Keyboard Error Undefined	
+260	0x0104	Raw HID Keycode	KEY_A	Keyboard a and A (US English)	Non US English keyboard users may prefer these Raw Scancodes
+261	0x0105	Raw HID Keycode	KEY_B	Keyboard b and B (US English)	
+262	0x0106	Raw HID Keycode	KEY_C	Keyboard c and C (US English)	
+263	0x0107	Raw HID Keycode	KEY_D	Keyboard d and D (US English)	
+264	0x0108	Raw HID Keycode	KEY_E	Keyboard e and E (US English)	
+265	0x0109	Raw HID Keycode	KEY_F	Keyboard f and F (US English)	
+266	0x010A	Raw HID Keycode	KEY_G	Keyboard g and G (US English)	
+267	0x010B	Raw HID Keycode	KEY_H	Keyboard h and H (US English)	
+268	0x010C	Raw HID Keycode	KEY_I	Keyboard i and I (US English)	
+269	0x010D	Raw HID Keycode	KEY_J	Keyboard j and J (US English)	
+270	0x010E	Raw HID Keycode	KEY_K	Keyboard k and K (US English)	
+271	0x010F	Raw HID Keycode	KEY_L	Keyboard l and L (US English)	
+272	0x0110	Raw HID Keycode	KEY_M	Keyboard m and M (US English)	
+273	0x0111	Raw HID Keycode	KEY_N	Keyboard n and N (US English)	
+274	0x0112	Raw HID Keycode	KEY_O	Keyboard o and O (US English)	
+275	0x0113	Raw HID Keycode	KEY_P	Keyboard p and P (US English)	
+276	0x0114	Raw HID Keycode	KEY_Q	Keyboard q and Q (US English)	
+277	0x0115	Raw HID Keycode	KEY_R	Keyboard r and R (US English)	
+278	0x0116	Raw HID Keycode	KEY_S	Keyboard s and S (US English)	
+279	0x0117	Raw HID Keycode	KEY_T	Keyboard t and T (US English)	
+280	0x0118	Raw HID Keycode	KEY_U	Keyboard u and U (US English)	
+281	0x0119	Raw HID Keycode	KEY_V	Keyboard v and V (US English)	
+282	0x011A	Raw HID Keycode	KEY_W	Keyboard w and W (US English)	
+283	0x011B	Raw HID Keycode	KEY_X	Keyboard x and X (US English)	
+284	0x011C	Raw HID Keycode	KEY_Y	Keyboard y and Y (US English)	
+285	0x011D	Raw HID Keycode	KEY_Z	Keyboard z and Z (US English)	
+286	0x011E	Raw HID Keycode	KEY_1	Keyboard 1 and ! (US English)	
+287	0x011F	Raw HID Keycode	KEY_2	Keyboard 2 and @ (US English)	
+288	0x0120	Raw HID Keycode	KEY_3	Keyboard 3 and # (US English)	
+289	0x0121	Raw HID Keycode	KEY_4	Keyboard 4 and $ (US English)	
+290	0x0122	Raw HID Keycode	KEY_5	Keyboard 5 and % (US English)	
+291	0x0123	Raw HID Keycode	KEY_6	Keyboard 6 and ^ (US English)	
+292	0x0124	Raw HID Keycode	KEY_7	Keyboard 7 and & (US English)	
+293	0x0125	Raw HID Keycode	KEY_8	Keyboard 8 and * (US English)	
+294	0x0126	Raw HID Keycode	KEY_9	Keyboard 9 and ( (US English)	
+295	0x0127	Raw HID Keycode	KEY_0	Keyboard 0 and ) (US English)	
+296	0x0128	Raw HID Keycode	ENTER	Keyboard Return (US English)	
+297	0x0129	Raw HID Keycode	ESC	Keyboard Escape (US English)	
+298	0x012A	Raw HID Keycode	BKSP	Keyboard Backspace (US English)	
+299	0x012B	Raw HID Keycode	TAB	Keyboard Tab (US English)	
+300	0x012C	Raw HID Keycode	KSC_2C	Keyboard Space (US English)	The ASCII space is preferred over this raw scancode for the spacebar
+301	0x012D	Raw HID Keycode	KSC_2D	Keyboard - and _ (US English)	
+302	0x012E	Raw HID Keycode	KSC_2E	Keyboard = and + (US English)	
+303	0x012F	Raw HID Keycode	KSC_2F	Keyboard [ and { (US English)	
+304	0x0130	Raw HID Keycode	KSC_30	Keyboard ] and } (US English)	
+305	0x0131	Raw HID Keycode	KSC_31	Keyboard \ and | (US English)	
+306	0x0132	Raw HID Keycode	KSC_32	Keyboard Non-US # and ~ (US English)	
+307	0x0133	Raw HID Keycode	KSC_33	Keyboard ; and : (US English)	
+308	0x0134	Raw HID Keycode	KSC_34	Keyboard ' and " (US English)	
+309	0x0135	Raw HID Keycode	KSC_35	Keyboard ` and ~ (US English)	
+310	0x0136	Raw HID Keycode	KSC_36	Keyboard , and < (US English)	
+311	0x0137	Raw HID Keycode	KSC_37	Keyboard . and > (US English)	
+312	0x0138	Raw HID Keycode	KSC_38	Keyboard / and ? (US English)	
+313	0x0139	Raw HID Keycode	CAPSLOCK	Keyboard Caps Lock	
+314	0x013A	Raw HID Keycode	F1	Keyboard F1	
+315	0x013B	Raw HID Keycode	F2	Keyboard F2	
+316	0x013C	Raw HID Keycode	F3	Keyboard F3	
+317	0x013D	Raw HID Keycode	F4	Keyboard F4	
+318	0x013E	Raw HID Keycode	F5	Keyboard F5	
+319	0x013F	Raw HID Keycode	F6	Keyboard F6	
+320	0x0140	Raw HID Keycode	F7	Keyboard F7	
+321	0x0141	Raw HID Keycode	F8	Keyboard F8	
+322	0x0142	Raw HID Keycode	F9	Keyboard F9	
+323	0x0143	Raw HID Keycode	F10	Keyboard F10	
+324	0x0144	Raw HID Keycode	F11	Keyboard F11	
+325	0x0145	Raw HID Keycode	F12	Keyboard F12	
+326	0x0146	Raw HID Keycode	PRTSCN	Keyboard Print Screen	
+327	0x0147	Raw HID Keycode	SCRLK	Keyboard Scroll Lock	
+328	0x0148	Raw HID Keycode	PAUSE	Keyboard Pause	
+329	0x0149	Raw HID Keycode	INSERT	Keyboard Insert	
+330	0x014A	Raw HID Keycode	HOME	Keyboard Home	
+331	0x014B	Raw HID Keycode	PGUP	Keyboard Page Up	
+332	0x014C	Raw HID Keycode	DELETE	Keyboard Delete Forward	
+333	0x014D	Raw HID Keycode	END	Keyboard End	
+334	0x014E	Raw HID Keycode	PGDN	Keyboard Page Down	
+335	0x014F	Raw HID Keycode	ARROW_RT	Keyboard Right Arrow	
+336	0x0150	Raw HID Keycode	ARROW_LF	Keyboard Left Arrow	
+337	0x0151	Raw HID Keycode	ARROW_DN	Keyboard Down Arrow	
+338	0x0152	Raw HID Keycode	ARROW_UP	Keyboard Up Arrow	
+339	0x0153	Raw HID Keycode	NUMLOCK	Keyboard Num Lock and Clear	
+340	0x0154	Raw HID Keycode	KP_SLASH	Keypad /	
+341	0x0155	Raw HID Keycode	KP_ASTER	Keypad *	
+342	0x0156	Raw HID Keycode	KP_MINUS	Keypad -	
+343	0x0157	Raw HID Keycode	KP_PLUS	Keypad +	
+344	0x0158	Raw HID Keycode	KP_ENTER	Keypad Enter	
+345	0x0159	Raw HID Keycode	KP_1	Keypad 1 and End	
+346	0x015A	Raw HID Keycode	KP_2	Keypad 2 and Down Arrow	
+347	0x015B	Raw HID Keycode	KP_3	Keypad 3 and Page Down	
+348	0x015C	Raw HID Keycode	KP_4	Keypad 4 and Left Arrow	
+349	0x015D	Raw HID Keycode	KP_5	Keypad 5	
+350	0x015E	Raw HID Keycode	KP_6	Keypad 6 and Rigth Arrow	
+351	0x015F	Raw HID Keycode	KP_7	Keypad 7 and Home	
+352	0x0160	Raw HID Keycode	KP_8	Keypad 8 and Up Arrow	
+353	0x0161	Raw HID Keycode	KP_9	Keypad 9 and Page Up	
+354	0x0162	Raw HID Keycode	KP_0	Keypad 0 and Insert	
+355	0x0163	Raw HID Keycode	KP_DOT	Keypad . and Delete	
+356	0x0164	Raw HID Keycode	KSC_64	Keyboard Non-US \ and | (US English)	
+357	0x0165	Raw HID Keycode	COMPOSE	Keyboard Application	Officially supported by Win, Unix, and Boot
+358	0x0166	Raw HID Keycode	POWER	Keyboard Power	Only officially supported by Mac and Unix
+359	0x0167	Raw HID Keycode	KP_EQUAL	Keypad =	Only officially supported by Mac
+360	0x0168	Raw HID Keycode	F13	Keyboard F13	Only officially supported by Mac
+361	0x0169	Raw HID Keycode	F14	Keyboard F14	Only officially supported by Mac
+362	0x016A	Raw HID Keycode	F15	Keyboard F15	Only officially supported by Mac
+363	0x016B	Raw HID Keycode	F16	Keyboard F16	Only officially supported by Mac
+364	0x016C	Raw HID Keycode	F17	Keyboard F17	Not required to be supported by any OS
+365	0x016D	Raw HID Keycode	F18	Keyboard F18	Not required to be supported by any OS
+366	0x016E	Raw HID Keycode	F19	Keyboard F19	Not required to be supported by any OS
+367	0x016F	Raw HID Keycode	F20	Keyboard F20	Not required to be supported by any OS
+368	0x0170	Raw HID Keycode	F21	Keyboard F21	Not required to be supported by any OS
+369	0x0171	Raw HID Keycode	F22	Keyboard F22	Not required to be supported by any OS
+370	0x0172	Raw HID Keycode	F23	Keyboard F23	Not required to be supported by any OS
+371	0x0173	Raw HID Keycode	F24	Keyboard F24	Not required to be supported by any OS
+372	0x0174	Raw HID Keycode	EXECUTE	Keyboard Execute	Only officially supported by Unix
+373	0x0175	Raw HID Keycode	HELP	Keyboard Help	Only officially supported by Unix
+374	0x0176	Raw HID Keycode	MENU	Keyboard Menu	Only officially supported by Unix
+375	0x0177	Raw HID Keycode	SELECT	Keyboard Select	Only officially supported by Unix
+376	0x0178	Raw HID Keycode	STOP	Keyboard Stop	Only officially supported by Unix
+377	0x0179	Raw HID Keycode	AGAIN	Keyboard Again	Only officially supported by Unix
+378	0x017A	Raw HID Keycode	UNDO	Keyboard Undo	Only officially supported by Unix
+379	0x017B	Raw HID Keycode	CUT	Keyboard Cut	Only officially supported by Unix
+380	0x017C	Raw HID Keycode	COPY	Keyboard Copy	Only officially supported by Unix
+381	0x017D	Raw HID Keycode	PASTE	Keyboard Paste	Only officially supported by Unix
+382	0x017E	Raw HID Keycode	FIND	Keyboard Find	Only officially supported by Unix
+383	0x017F	Raw HID Keycode	MUTE	Keyboard Mute	Only officially supported by Unix
+384	0x0180	Raw HID Keycode	VOL_UP	Keyboard Volume Up	Only officially supported by Unix
+385	0x0181	Raw HID Keycode	VOL_DN	Keyboard Volume Down	Only officially supported by Unix
+386	0x0182	Raw HID Keycode	KSC_82	Keyboard Locking Caps Lock	Only officially supported by Unix
+387	0x0183	Raw HID Keycode	KSC_83	Keyboard Locking Num Lock	Only officially supported by Unix
+388	0x0184	Raw HID Keycode	KSC_84	Keyboard Locking Scroll Lock	Only officially supported by Unix
+389	0x0185	Raw HID Keycode	KP_COMMA	Keypad Comma	Not required to be supported by any OS
+390	0x0186	Raw HID Keycode	KSC_86	Keypad Equals Sign	Not required to be supported by any OS
+391	0x0187	Raw HID Keycode	INTL1	Keyboard International1	Not required to be supported by any OS
+392	0x0188	Raw HID Keycode	INTL2	Keyboard International2	Not required to be supported by any OS
+393	0x0189	Raw HID Keycode	INTL3	Keyboard International3	Not required to be supported by any OS
+394	0x018A	Raw HID Keycode	INTL4	Keyboard International4	Not required to be supported by any OS
+395	0x018B	Raw HID Keycode	INTL5	Keyboard International5	Not required to be supported by any OS
+396	0x018C	Raw HID Keycode	INTL6	Keyboard International6	Not required to be supported by any OS
+397	0x018D	Raw HID Keycode	INTL7	Keyboard International7	Not required to be supported by any OS
+398	0x018E	Raw HID Keycode	INTL8	Keyboard International8	Not required to be supported by any OS
+399	0x018F	Raw HID Keycode	INTL9	Keyboard International9	Not required to be supported by any OS
+400	0x0190	Raw HID Keycode	LANG1	Keyboard LANG1	Not required to be supported by any OS
+401	0x0191	Raw HID Keycode	LANG2	Keyboard LANG2	Not required to be supported by any OS
+402	0x0192	Raw HID Keycode	LANG3	Keyboard LANG3	Not required to be supported by any OS
+403	0x0193	Raw HID Keycode	LANG4	Keyboard LANG4	Not required to be supported by any OS
+404	0x0194	Raw HID Keycode	LANG5	Keyboard LANG5	Not required to be supported by any OS
+405	0x0195	Raw HID Keycode	LANG6	Keyboard LANG6	Not required to be supported by any OS
+406	0x0196	Raw HID Keycode	LANG7	Keyboard LANG7	Not required to be supported by any OS
+407	0x0197	Raw HID Keycode	LANG8	Keyboard LANG8	Not required to be supported by any OS
+408	0x0198	Raw HID Keycode	LANG9	Keyboard LANG9	Not required to be supported by any OS
+409	0x0199	Raw HID Keycode	KSC_99	Keyboard Alternate Erase	Not required to be supported by any OS
+410	0x019A	Raw HID Keycode	KSC_9A	Keyboard SysReq/Attention	Not required to be supported by any OS
+411	0x019B	Raw HID Keycode	KSC_9B	Keyboard Cancel	Not required to be supported by any OS
+412	0x019C	Raw HID Keycode	KSC_9C	Keyboard Clear	Not required to be supported by any OS
+413	0x019D	Raw HID Keycode	KSC_9D	Keyboard Prior	Not required to be supported by any OS
+414	0x019E	Raw HID Keycode	KSC_9E	Keyboard Return	Not required to be supported by any OS
+415	0x019F	Raw HID Keycode	KSC_9F	Keyboard Separator	Not required to be supported by any OS
+416	0x01A0	Raw HID Keycode	KSC_A0	Keyboard Out	Not required to be supported by any OS
+417	0x01A1	Raw HID Keycode	KSC_A1	Keyboard Oper	Not required to be supported by any OS
+418	0x01A2	Raw HID Keycode	KSC_A2	Keyboard Clear/Again	Not required to be supported by any OS
+419	0x01A3	Raw HID Keycode	KSC_A3	Keyboard CrSel/Props	Not required to be supported by any OS
+420	0x01A4	Raw HID Keycode	KSC_A4	Keyboard ExSel	Not required to be supported by any OS
+421	0x01A5	Raw HID Keycode	KSC_A5		Not required to be supported by any OS
+422	0x01A6	Raw HID Keycode	KSC_A6		Not required to be supported by any OS
+423	0x01A7	Raw HID Keycode	KSC_A7		Not required to be supported by any OS
+424	0x01A8	Raw HID Keycode	KSC_A8		Not required to be supported by any OS
+425	0x01A9	Raw HID Keycode	KSC_A9		Not required to be supported by any OS
+426	0x01AA	Raw HID Keycode	KSC_AA		Not required to be supported by any OS
+427	0x01AB	Raw HID Keycode	KSC_AB		Not required to be supported by any OS
+428	0x01AC	Raw HID Keycode	KSC_AC		Not required to be supported by any OS
+429	0x01AD	Raw HID Keycode	KSC_AD		Not required to be supported by any OS
+430	0x01AE	Raw HID Keycode	KSC_AE		Not required to be supported by any OS
+431	0x01AF	Raw HID Keycode	KSC_AF		Not required to be supported by any OS
+432	0x01B0	Raw HID Keycode	KSC_B0	Keypad 00	Not required to be supported by any OS
+433	0x01B1	Raw HID Keycode	KSC_B1	Keypad 000	Not required to be supported by any OS
+434	0x01B2	Raw HID Keycode	KSC_B2	Thousands Separator	Not required to be supported by any OS
+435	0x01B3	Raw HID Keycode	KSC_B3	Decimal Separator	Not required to be supported by any OS
+436	0x01B4	Raw HID Keycode	KSC_B4	Currency Unit	Not required to be supported by any OS
+437	0x01B5	Raw HID Keycode	KSC_B5	Currency Sub-unit	Not required to be supported by any OS
+438	0x01B6	Raw HID Keycode	KSC_B6	Keypad (	Not required to be supported by any OS
+439	0x01B7	Raw HID Keycode	KSC_B7	Keypad )	Not required to be supported by any OS
+440	0x01B8	Raw HID Keycode	KSC_B8	Keypad {	Not required to be supported by any OS
+441	0x01B9	Raw HID Keycode	KSC_B9	Keypad }	Not required to be supported by any OS
+442	0x01BA	Raw HID Keycode	KSC_BA	Keypad Tab	Not required to be supported by any OS
+443	0x01BB	Raw HID Keycode	KSC_BB	Keypad Backspace	Not required to be supported by any OS
+444	0x01BC	Raw HID Keycode	KSC_BC	Keypad A	Not required to be supported by any OS
+445	0x01BD	Raw HID Keycode	KSC_BD	Keypad B	Not required to be supported by any OS
+446	0x01BE	Raw HID Keycode	KSC_BE	Keypad C	Not required to be supported by any OS
+447	0x01BF	Raw HID Keycode	KSC_BF	Keypad D	Not required to be supported by any OS
+448	0x01C0	Raw HID Keycode	KSC_C0	Keypad E	Not required to be supported by any OS
+449	0x01C1	Raw HID Keycode	KSC_C1	Keypad F	Not required to be supported by any OS
+450	0x01C2	Raw HID Keycode	KSC_C2	Keypad XOR	Not required to be supported by any OS
+451	0x01C3	Raw HID Keycode	KSC_C3	Keypad ^	Not required to be supported by any OS
+452	0x01C4	Raw HID Keycode	KSC_C4	Keypad %	Not required to be supported by any OS
+453	0x01C5	Raw HID Keycode	KSC_C5	Keypad <	Not required to be supported by any OS
+454	0x01C6	Raw HID Keycode	KSC_C6	Keypad >	Not required to be supported by any OS
+455	0x01C7	Raw HID Keycode	KSC_C7	Keypad &	Not required to be supported by any OS
+456	0x01C8	Raw HID Keycode	KSC_C8	Keypad &&	Not required to be supported by any OS
+457	0x01C9	Raw HID Keycode	KSC_C9	Keypad |	Not required to be supported by any OS
+458	0x01CA	Raw HID Keycode	KSC_CA	Keypad ||	Not required to be supported by any OS
+459	0x01CB	Raw HID Keycode	KSC_CB	Keypad :	Not required to be supported by any OS
+460	0x01CC	Raw HID Keycode	KSC_CC	Keypad #	Not required to be supported by any OS
+461	0x01CD	Raw HID Keycode	KSC_CD	Keypad Space	Not required to be supported by any OS
+462	0x01CE	Raw HID Keycode	KSC_CE	Keypad @	Not required to be supported by any OS
+463	0x01CF	Raw HID Keycode	KSC_CF	Keypad !	Not required to be supported by any OS
+464	0x01D0	Raw HID Keycode	KSC_D0	Keypad Memory Store	Not required to be supported by any OS
+465	0x01D1	Raw HID Keycode	KSC_D1	Keypad Memory Recall	Not required to be supported by any OS
+466	0x01D2	Raw HID Keycode	KSC_D2	Keypad Memory Clear	Not required to be supported by any OS
+467	0x01D3	Raw HID Keycode	KSC_D3	Keypad Memory Add	Not required to be supported by any OS
+468	0x01D4	Raw HID Keycode	KSC_D4	Keypad Memory Subtract	Not required to be supported by any OS
+469	0x01D5	Raw HID Keycode	KSC_D5	Keypad Memory Multiply	Not required to be supported by any OS
+470	0x01D6	Raw HID Keycode	KSC_D6	Keypad Memory Divide	Not required to be supported by any OS
+471	0x01D7	Raw HID Keycode	KSC_D7	Keypad +/-	Not required to be supported by any OS
+472	0x01D8	Raw HID Keycode	KSC_D8	Keypad Clear	Not required to be supported by any OS
+473	0x01D9	Raw HID Keycode	KSC_D9	Keypad Clear Entry	Not required to be supported by any OS
+474	0x01DA	Raw HID Keycode	KSC_DA	Keypad Binary	Not required to be supported by any OS
+475	0x01DB	Raw HID Keycode	KSC_DB	Keypad Octal	Not required to be supported by any OS
+476	0x01DC	Raw HID Keycode	KSC_DC	Keypad Decimal	Not required to be supported by any OS
+477	0x01DD	Raw HID Keycode	KSC_DD	Keypad Hexadecimal	Not required to be supported by any OS
+478	0x01DE	Raw HID Keycode	KSC_DE		Not required to be supported by any OS
+479	0x01DF	Raw HID Keycode	KSC_DF		Not required to be supported by any OS
+480	0x01E0	Raw HID Keycode	KSC_E0	Keyboard Left Control	
+481	0x01E1	Raw HID Keycode	KSC_E1	Keyboard Left Shift	
+482	0x01E2	Raw HID Keycode	KSC_E2	Keyboard Left Alt	
+483	0x01E3	Raw HID Keycode	KSC_E3	Keyboard Left GUI	
+484	0x01E4	Raw HID Keycode	KSC_E4	Keyboard Right Control	
+485	0x01E5	Raw HID Keycode	KSC_E5	Keyboard Right Shift	
+486	0x01E6	Raw HID Keycode	KSC_E6	Keyboard Right Alt	
+487	0x01E7	Raw HID Keycode	KSC_E7	Keyboard Right GUI	
+488	0x01E8	Raw HID Keycode	KSC_E8	Media Play Pause	Not required to be supported by any OS. Possibly deprecated.
+489	0x01E9	Raw HID Keycode	KSC_E9	Media Stop CD	Not required to be supported by any OS. Possibly deprecated.
+490	0x01EA	Raw HID Keycode	KSC_EA	Media Previous Song	Not required to be supported by any OS. Possibly deprecated.
+491	0x01EB	Raw HID Keycode	KSC_EB	Media Next Song	Not required to be supported by any OS. Possibly deprecated.
+492	0x01EC	Raw HID Keycode	KSC_EC	Media Eject CD	Not required to be supported by any OS. Possibly deprecated.
+493	0x01ED	Raw HID Keycode	KSC_ED	Media Volume Up	Not required to be supported by any OS. Possibly deprecated.
+494	0x01EE	Raw HID Keycode	KSC_EE	Media Volume Down	Not required to be supported by any OS. Possibly deprecated.
+495	0x01EF	Raw HID Keycode	KSC_EF	Media Mute	Not required to be supported by any OS. Possibly deprecated.
+496	0x01F0	Raw HID Keycode	KSC_F0	Media www	Not required to be supported by any OS. Possibly deprecated.
+497	0x01F1	Raw HID Keycode	KSC_F1	Media Back	Not required to be supported by any OS. Possibly deprecated.
+498	0x01F2	Raw HID Keycode	KSC_F2	Media Forward	Not required to be supported by any OS. Possibly deprecated.
+499	0x01F3	Raw HID Keycode	KSC_F3	Media Stop	Not required to be supported by any OS. Possibly deprecated.
+500	0x01F4	Raw HID Keycode	KSC_F4	Media Find	Not required to be supported by any OS. Possibly deprecated.
+501	0x01F5	Raw HID Keycode	KSC_F5	Media Scroll Up	Not required to be supported by any OS. Possibly deprecated.
+502	0x01F6	Raw HID Keycode	KSC_F6	Media Scroll Down	Not required to be supported by any OS. Possibly deprecated.
+503	0x01F7	Raw HID Keycode	KSC_F7	Media Edit	Not required to be supported by any OS. Possibly deprecated.
+504	0x01F8	Raw HID Keycode	KSC_F8	Media Sleep	Not required to be supported by any OS. Possibly deprecated.
+505	0x01F9	Raw HID Keycode	KSC_F9	Media Coffee	Not required to be supported by any OS. Possibly deprecated.
+506	0x01FA	Raw HID Keycode	KSC_FA	Media Refresh	Not required to be supported by any OS. Possibly deprecated.
+507	0x01FB	Raw HID Keycode	KSC_FB	Media Calc	Not required to be supported by any OS. Possibly deprecated.
+508	0x01FC	Raw HID Keycode	KSC_FC		Not required to be supported by any OS.
+509	0x01FD	Raw HID Keycode	KSC_FD		Not required to be supported by any OS.
+510	0x01FE	Raw HID Keycode	KSC_FE		Not required to be supported by any OS.
+511	0x01FF	Raw HID Keycode	KSC_FF		Not required to be supported by any OS.
+512	0x0200	Keyboard	LEFT_CTRL	Left Control Keyboard Modifier	Same action as 480, but includes chord modifications
+513	0x0201	Keyboard	LEFT_SHIFT	Left Shift Keyboard Modifier	Same action as 481, but includes chord modifications
+514	0x0202	Keyboard	LEFT_ALT	Left Alt Keyboard Modifier	Same action as 482, but includes chord modifications
+515	0x0203	Keyboard	LEFT_GUI	Left GUI Keyboard Modifier	Same action as 483, but includes chord modifications
+516	0x0204	Keyboard	RIGHT_CTRL	Right Control Keyboard Modifier	Same action as 484, but includes chord modifications
+517	0x0205	Keyboard	RIGHT_SHIFT	Right Shift Keyboard Modifier	Same action as 485, but includes chord modifications
+518	0x0206	Keyboard	RIGHT_ALT	Right Alt Keyboard Modifier	Same action as 486, but includes chord modifications
+519	0x0207	Keyboard	RIGHT_GUI	Right GUI Keyboard Modifier	Same action as 487, but includes chord modifications
+520	0x0208	Keyboard	RELEASE_MOD	Release all keyboard modifiers	
+521	0x0209	Keyboard	RELEASE_ALL	Release all keys and keyboard modifiers	
+522	0x020A	Keyboard	RELEASE_KEYS	Release all keys, but not keyboard modifiers	
+523	0x020B	Keyboard	PRESS_NEXT	Press and do not release the next key/action	Expected to only be used for Chord outputs for Macros and Shifts
+524	0x020C	Keyboard	RELEASE_NEXT	Release the next key/action in the sequence	Expected to only be used for Chord outputs for Macros and Shifts
+525	0x020D				
+526	0x020E				
+527	0x020F				
+528	0x0210	CharaChorder	RESTART	Restart Device	
+529	0x0211				
+530	0x0212	CharaChorder	BOOT	Bootloader Mode	
+531	0x0213				
+532	0x0214	CharaChorder	GTM	Toggle GTM	
+533	0x0215				
+534	0x0216	CharaChorder	IMPULSE	Toggle Impulse	
+535	0x0217				
+536	0x0218	CharaChorder	DUP	Repeat Last Note	
+537	0x0219				
+538	0x021A	CharaChorder	SPUR	Spur Toggle	
+539	0x021B	CharaChorder 	MATH	Toggle Math	
+540	0x021C	CharaChorder	AMBILEFT	AmbiThrow (left)	
+541	0x021D				
+542	0x021E	CharaChorder	AMBIRIGHT	AmbiThrow (right)	
+543	0x021F				
+544	0x0220	CharaChorder	SPACERIGHT	Right Spacebar (eg CC Lite)	
+545	0x0221				
+546	0x0222				
+547	0x0223				
+548	0x0224	CharaChorder	KM_1_L	Primary Keymap (left key)	Included for completeness
+549	0x0225	CharaChorder	KM_1_R	Primary Keymap (right key)	Included for completeness
+550	0x0226	CharaChorder	KM_2_L	Secondary Keymap [Num-shift] (left key)	
+551	0x0227	CharaChorder	KM_2_R	Secondary Keymap [Num-shift] (right key)	
+552	0x0228	CharaChorder	KM_3_L	Tertiary Keymap (left key)	
+553	0x0229	CharaChorder	KM_3_R	Tertiary Keymap (right key)	
+554	0x022A				
+555	0x022B				
+556	0x022C				
+557	0x022D				
+558	0x022E				
+559	0x022F				
+560	0x0230	Mouse	MS_CLICK_BWD	Mouse Backward Button Press/Release	
+561	0x0231	Mouse	MS_CLICK_FWD	Mouse Forward Button Press/Release	
+562	0x0232	Mouse	MS_CLICK_LF	Mouse Left Button Press/Release	
+563	0x0233	Mouse	MS_CLICK_RT	Mouse Right Button Press/Release	
+564	0x0234	Mouse	MS_CLICK_MD	Mouse Middle Button Press/Release	
+565	0x0235	Mouse	MS_MOVE_RT	Mouse Move Right	
+566	0x0236	Mouse	MS_MOVE_LF	Mouse Move Left	
+567	0x0237	Mouse	MS_MOVE_DN	Mouse Move Down	
+568	0x0238	Mouse	MS_MOVE_UP	Mouse Move Up	
+569	0x0239	Mouse	MS_SCRL_RT	Mouse Scroll Coast Right	
+570	0x023A	Mouse	MS_SCRL_LF	Mouse Scroll Coast Left	
+571	0x023B	Mouse	MS_SCRL_DN	Mouse Scroll Coast Down	
+572	0x023C	Mouse	MS_SCRL_UP	Mouse Scroll Coast Up	
+573	0x023D				
+574	0x023E				
+575	0x023F				
+576	0x0240	CharaChorder	DELAY_1	delays for 1 ms	
+577	0x0241	CharaChorder	DELAY_10	delays for 10 ms	
+578	0x0242	CharaChorder	DELAY_100	delays for 100 ms	
+579	0x0243	CharaChorder	DELAY_1000	delays for 1000 ms	
+580	0x0244	CharaChorder	DELAY_10000	delays for 10000 ms	
+581	0x0245				
+582	0x0246				
+583	0x0247	CharaChorder	QUICK_DRAW	press: stop movement and fire - release: continue movement	
+584	0x0248	CharaChorder	SPIN_SNAP	press: move mouse n pixels - release: move mouse back n pixels	
+585	0x0249	CharaChorder	SPIN_SNAP2	press: move mouse n pixels - release: move mouse back n pixels	
+586	0x024A	CharaChorder	COUNTER_STRAFE	press: stop movement - release: continue movement	
+587	0x024B	CharaChorder	BACKPEDAL	press: invert movement - release: continue movement	
+588	0x024C				
+589	0x024D				
+590	0x024E	CharaChorder	PROFILE_1	Change layout and settings to profile 1	
+591	0x024F	CharaChorder	PROFILE_2	Change layout and settings to profile 2	
+592	0x0250	CharaChorder	PROFILE_3	Change layout and settings to profile 3	
+593	0x0251				
+594	0x0252				
+595	0x0253				
+596	0x0254				
+597	0x0255				
+598	0x0256				
+599	0x0257				
+600	0x0258	CharaChorder One	LH_THUMB_3_3D	Left Hand Thumb 3 Center Switch; No action	No Action; Used for chords with unassigned 3D presses on the CC1
+601	0x0259	CharaChorder One	LH_THUMB_2_3D		
+602	0x025A	CharaChorder One	LH_THUMB_1_3D		
+603	0x025B	CharaChorder One	LH_INDEX_3D		
+604	0x025C	CharaChorder One	LH_MID_1_3D		
+605	0x025D	CharaChorder One	LH_RING_1_3D		
+606	0x025E	CharaChorder One	LH_PINKY_3D		
+607	0x025F	CharaChorder One	LH_MID_2_3D		
+608	0x0260	CharaChorder One	LH_RING_2_3D		
+609	0x0261	CharaChorder One	RH_THUMB_3_3D		
+610	0x0262	CharaChorder One	RH_THUMB_2_3D		
+611	0x0263	CharaChorder One	RH_THUMB_1_3D		
+612	0x0264	CharaChorder One	RH_INDEX_3D		
+613	0x0265	CharaChorder One	RH_MID_1_3D		
+614	0x0266	CharaChorder One	RH_RING_1_3D		
+615	0x0267	CharaChorder One	RH_PINKY_3D		
+616	0x0268	CharaChorder One	RH_MID_2_3D		
+617	0x0269	CharaChorder One	RH_RING_2_3D		
+618	0x026A				
+619	0x026B				
+620	0x026C				
+621	0x026D				
+622	0x026E				
+623	0x026F				
+624	0x0270				
+625	0x0271				
+626	0x0272				
+627	0x0273				
+628	0x0274				
+629	0x0275				
+630	0x0276				
+631	0x0277				
+632	0x0278				
+633	0x0279				
+634	0x027A				
+635	0x027B				
+636	0x027C				
+637	0x027D				
+638	0x027E				
+639	0x027F				
+640	0x0280				
+641	0x0281				
+642	0x0282				
+643	0x0283				
+644	0x0284				
+645	0x0285				
+646	0x0286				
+647	0x0287				
+648	0x0288				
+649	0x0289				
+650	0x028A				
+651	0x028B				
+652	0x028C				
+653	0x028D				
+654	0x028E				
+655	0x028F				
+656	0x0290				
+657	0x0291				
+658	0x0292				
+659	0x0293				
+660	0x0294				
+661	0x0295				
+662	0x0296				
+663	0x0297				
+664	0x0298				
+665	0x0299				
+666	0x029A				
+667	0x029B				
+668	0x029C				
+669	0x029D				
+670	0x029E				
+671	0x029F				
+672	0x02A0				
+673	0x02A1				
+674	0x02A2				
+675	0x02A3				
+676	0x02A4				
+677	0x02A5				
+678	0x02A6				
+679	0x02A7				
+680	0x02A8				
+681	0x02A9				
+682	0x02AA				
+683	0x02AB				
+684	0x02AC				
+685	0x02AD				
+686	0x02AE				
+687	0x02AF				
+688	0x02B0				
+689	0x02B1				
+690	0x02B2				
+691	0x02B3				
+692	0x02B4				
+693	0x02B5				
+694	0x02B6				
+695	0x02B7				
+696	0x02B8				
+697	0x02B9				
+698	0x02BA				
+699	0x02BB				
+700	0x02BC				
+701	0x02BD				
+702	0x02BE				
+703	0x02BF				
+704	0x02C0				
+705	0x02C1				
+706	0x02C2				
+707	0x02C3				
+708	0x02C4				
+709	0x02C5				
+710	0x02C6				
+711	0x02C7				
+712	0x02C8				
+713	0x02C9				
+714	0x02CA				
+715	0x02CB				
+716	0x02CC				
+717	0x02CD				
+718	0x02CE				
+719	0x02CF				
+720	0x02D0				
+721	0x02D1				
+722	0x02D2				
+723	0x02D3				
+724	0x02D4				
+725	0x02D5				
+726	0x02D6				
+727	0x02D7				
+728	0x02D8				
+729	0x02D9				
+730	0x02DA				
+731	0x02DB				
+732	0x02DC				
+733	0x02DD				
+734	0x02DE				
+735	0x02DF				
+736	0x02E0				
+737	0x02E1				
+738	0x02E2				
+739	0x02E3				
+740	0x02E4				
+741	0x02E5				
+742	0x02E6				
+743	0x02E7				
+744	0x02E8				
+745	0x02E9				
+746	0x02EA				
+747	0x02EB				
+748	0x02EC				
+749	0x02ED				
+750	0x02EE				
+751	0x02EF				
+752	0x02F0				
+753	0x02F1				
+754	0x02F2				
+755	0x02F3				
+756	0x02F4				
+757	0x02F5				
+758	0x02F6				
+759	0x02F7				
+760	0x02F8				
+761	0x02F9				
+762	0x02FA				
+763	0x02FB				
+764	0x02FC				
+765	0x02FD				
+766	0x02FE				
+767	0x02FF				
+768	0x0300				
+769	0x0301				
+770	0x0302				
+771	0x0303				
+772	0x0304				
+773	0x0305				
+774	0x0306				
+775	0x0307				
+776	0x0308				
+777	0x0309				
+778	0x030A				
+779	0x030B				
+780	0x030C				
+781	0x030D				
+782	0x030E				
+783	0x030F				
+784	0x0310				
+785	0x0311				
+786	0x0312				
+787	0x0313				
+788	0x0314				
+789	0x0315				
+790	0x0316				
+791	0x0317				
+792	0x0318				
+793	0x0319				
+794	0x031A				
+795	0x031B				
+796	0x031C				
+797	0x031D				
+798	0x031E				
+799	0x031F				
+800	0x0320				
+801	0x0321				
+802	0x0322				
+803	0x0323				
+804	0x0324				
+805	0x0325				
+806	0x0326				
+807	0x0327				
+808	0x0328				
+809	0x0329				
+810	0x032A				
+811	0x032B				
+812	0x032C				
+813	0x032D				
+814	0x032E				
+815	0x032F				
+816	0x0330				
+817	0x0331				
+818	0x0332				
+819	0x0333				
+820	0x0334				
+821	0x0335				
+822	0x0336				
+823	0x0337				
+824	0x0338				
+825	0x0339				
+826	0x033A				
+827	0x033B				
+828	0x033C				
+829	0x033D				
+830	0x033E				
+831	0x033F				
+832	0x0340				
+833	0x0341				
+834	0x0342				
+835	0x0343				
+836	0x0344				
+837	0x0345				
+838	0x0346				
+839	0x0347				
+840	0x0348				
+841	0x0349				
+842	0x034A				
+843	0x034B				
+844	0x034C				
+845	0x034D				
+846	0x034E				
+847	0x034F				
+848	0x0350				
+849	0x0351				
+850	0x0352				
+851	0x0353				
+852	0x0354				
+853	0x0355				
+854	0x0356				
+855	0x0357				
+856	0x0358				
+857	0x0359				
+858	0x035A				
+859	0x035B				
+860	0x035C				
+861	0x035D				
+862	0x035E				
+863	0x035F				
+864	0x0360				
+865	0x0361				
+866	0x0362				
+867	0x0363				
+868	0x0364				
+869	0x0365				
+870	0x0366				
+871	0x0367				
+872	0x0368				
+873	0x0369				
+874	0x036A				
+875	0x036B				
+876	0x036C				
+877	0x036D				
+878	0x036E				
+879	0x036F				
+880	0x0370				
+881	0x0371				
+882	0x0372				
+883	0x0373				
+884	0x0374				
+885	0x0375				
+886	0x0376				
+887	0x0377				
+888	0x0378				
+889	0x0379				
+890	0x037A				
+891	0x037B				
+892	0x037C				
+893	0x037D				
+894	0x037E				
+895	0x037F				
+896	0x0380				
+897	0x0381				
+898	0x0382				
+899	0x0383				
+900	0x0384				
+901	0x0385				
+902	0x0386				
+903	0x0387				
+904	0x0388				
+905	0x0389				
+906	0x038A				
+907	0x038B				
+908	0x038C				
+909	0x038D				
+910	0x038E				
+911	0x038F				
+912	0x0390				
+913	0x0391				
+914	0x0392				
+915	0x0393				
+916	0x0394				
+917	0x0395				
+918	0x0396				
+919	0x0397				
+920	0x0398				
+921	0x0399				
+922	0x039A				
+923	0x039B				
+924	0x039C				
+925	0x039D				
+926	0x039E				
+927	0x039F				
+928	0x03A0				
+929	0x03A1				
+930	0x03A2				
+931	0x03A3				
+932	0x03A4				
+933	0x03A5				
+934	0x03A6				
+935	0x03A7				
+936	0x03A8				
+937	0x03A9				
+938	0x03AA				
+939	0x03AB				
+940	0x03AC				
+941	0x03AD				
+942	0x03AE				
+943	0x03AF				
+944	0x03B0				
+945	0x03B1				
+946	0x03B2				
+947	0x03B3				
+948	0x03B4				
+949	0x03B5				
+950	0x03B6				
+951	0x03B7				
+952	0x03B8				
+953	0x03B9				
+954	0x03BA				
+955	0x03BB				
+956	0x03BC				
+957	0x03BD				
+958	0x03BE				
+959	0x03BF				
+960	0x03C0				
+961	0x03C1				
+962	0x03C2				
+963	0x03C3				
+964	0x03C4				
+965	0x03C5				
+966	0x03C6				
+967	0x03C7				
+968	0x03C8				
+969	0x03C9				
+970	0x03CA				
+971	0x03CB				
+972	0x03CC				
+973	0x03CD				
+974	0x03CE				
+975	0x03CF				
+976	0x03D0				
+977	0x03D1				
+978	0x03D2				
+979	0x03D3				
+980	0x03D4				
+981	0x03D5				
+982	0x03D6				
+983	0x03D7				
+984	0x03D8				
+985	0x03D9				
+986	0x03DA				
+987	0x03DB				
+988	0x03DC				
+989	0x03DD				
+990	0x03DE				
+991	0x03DF				
+992	0x03E0				
+993	0x03E1				
+994	0x03E2				
+995	0x03E3				
+996	0x03E4				
+997	0x03E5				
+998	0x03E6				
+999	0x03E7				
+1000	0x03E8				
+1001	0x03E9				
+1002	0x03EA				
+1003	0x03EB				
+1004	0x03EC				
+1005	0x03ED				
+1006	0x03EE				
+1007	0x03EF				
+1008	0x03F0				
+1009	0x03F1				
+1010	0x03F2				
+1011	0x03F3				
+1012	0x03F4				
+1013	0x03F5				
+1014	0x03F6				
+1015	0x03F7				
+1016	0x03F8				
+1017	0x03F9				
+1018	0x03FA				
+1019	0x03FB				
+1020	0x03FC				
+1021	0x03FD				
+1022	0x03FE				
+1023	0x03FF				

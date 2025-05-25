@@ -1,0 +1,6 @@
+networkx
+# pattern3
+spacy
+# en_core_web_md # Install with `python -m spacy download en_core_web_md`
+pydantic
+pyyaml
