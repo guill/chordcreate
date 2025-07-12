@@ -45,15 +45,53 @@ class Category(BaseModel):
 
 default_categories = [
     Category(
-        name="tech",
+        name="programming",
         examples=[
-            "technology", "node", "password", "image", "server", "network",
-            "data", "computer", "internet", "software", "hardware", "packet",
-            "cd", "grep", "ssh", "digital"
+            "computer",
+            "data",
+            "digital",
+            "hardware",
+            "internet",
+            "network",
+            "packet",
+            "password",
+            "server",
+            "software",
+        ],
+        counterexamples=["mac", "dos", "suse", "kde", "vlc",],
+        threshold=0.20,
+        freq_multiplier=2.0,
+        freq_offset=0.0
+    ),
+    Category(
+        name="commands",
+        examples=[
+            "cd",
+            "git",
+            "grep",
+            "ssh",
+            "ls",
+            "cp",
+            "mv",
+            "rm",
+            "mkdir",
+        ],
+        counterexamples=["debian", "firefox", "gnome","mozilla",],
+        threshold=0.10,
+        freq_multiplier=2.0,
+        freq_offset=0.0
+    ),
+    Category(
+        name="graph_theory",
+        examples=[
+            "node",
+            "edge",
+            "graph",
+            "digraph",
         ],
         counterexamples=[],
         threshold=0.25,
-        freq_multiplier=2.0,
+        freq_multiplier=3.0,
         freq_offset=0.0
     ),
     Category(
@@ -67,7 +105,7 @@ default_categories = [
         ],
         threshold=0.25,
         freq_multiplier=0.2,
-        freq_offset=0.0
+        freq_offset=-0.001
     ),
 ]
 
@@ -77,6 +115,7 @@ class HeuristicValues(BaseModel):
     missing_first_letter_cost: float = Field(default=10.0, description="Cost for not including the first letter of the word in the chord")
     missing_second_letter_cost: float = Field(default=5.0, description="Cost for not including the second letter of the word in the chord")
     missing_last_letter_cost: float = Field(default=2.0, description="Cost for not including the last letter of the word in the chord")
+    missing_any_letter_cost: float = Field(default=2.0, description="Cost for not including any other letter of the word in the chord")
     extra_chord_cost: float = Field(default=200.0, description="Cost for including non-letter characters in a chord other than DUP")
     bad_letter_cost: float = Field(default=100.0, description="Cost for including a letter in a chord that is not in the word")
     dup_without_duplicates_cost: float = Field(default=200.0, description="Cost for including 'DUP' in a chord when there are no duplicate letters in the word")
@@ -86,7 +125,7 @@ class HeuristicValues(BaseModel):
     frequency_exponent: float = Field(default=2.0, description="Exponent for frequency in the chord cost calculation, higher means more emphasis on frequency")
 
 class Settings(BaseModel):
-    top_n: int = Field(default=2000, description="Number of top words to consider")
+    top_n: int = Field(default=4000, description="Number of top words to consider")
     max_chord_size: int = Field(default=6, description="Maximum size of a chord")
     min_chord_size: int = Field(default=2, description="Minimum size of a chord")
     skip_single_letter_words: bool = Field(default=True, description="Whether to skip single-letter words when assigning chords")
@@ -112,6 +151,7 @@ class Settings(BaseModel):
     explicit_chords: Dict[str, Union[List[str],str]] = Field(
         default_factory=lambda: {
             "at": "ae",
+            "been": "ben",
             # Add more explicit chords as needed
         },
         description="Explicit chords for specific words"
@@ -254,6 +294,10 @@ def chord_cost(settings: Settings, layout: config.Layout, word: str, chord: Froz
     # If the last letter of the word is not in the chord, add a penalty
     if len(chord) > 2 and word[-1] not in chord:
         total_cost += settings.heuristic.missing_last_letter_cost
+
+    missing_letters = set(word[2:-1]) - chord
+    if len(missing_letters) > 0:
+        total_cost += settings.heuristic.missing_any_letter_cost * len(missing_letters)
 
     # For each letter in the chord, add a penalty if it's not in the word
     for letter in chord:
@@ -470,6 +514,15 @@ if __name__ == "__main__":
         help="Convert from raw JSON to easy format."
     )
 
+    parser_categories = subparsers.add_parser("categories", help="Dump words in each category to debug.")
+    parser_categories.add_argument(
+        "settings_file",
+        type=str,
+        nargs="?",
+        default=None,
+        help="Path to the YAML configuration file (optional)."
+    )
+
     args = parser.parse_args()
 
     if args.command == "create":
@@ -517,6 +570,31 @@ if __name__ == "__main__":
             
         with open(args.out_file, "w") as out_file:
             json.dump(output, out_file, sort_keys=False)
+    elif args.command == "categories":
+        # Load YAML configuration
+        if args.settings_file is None:
+            settings = Settings()
+        else:
+            with open(args.settings_file, "r") as yaml_file:
+                config_data = yaml.safe_load(yaml_file)
+                settings = Settings(**config_data)
+
+        categories = []
+        word_list = load_word_list(settings, "./dataset/unigram_freq.csv")
+        ordered_word_list = sorted(word_list.items(), key=lambda x: x[1], reverse=True)
+        categorizer = Categorizer()
+        for category in settings.categories:
+            info = {"name": category.name, "words": []}
+            for word, freq in tqdm(ordered_word_list, desc=f"Category '{category.name}'", miniters=1000):
+                mss = categorizer.get_mss(word, category.examples) - categorizer.get_mss(word, category.counterexamples)
+                if mss > category.threshold:
+                    info["words"].append({
+                        "word": word,
+                        "mss": mss,
+                        "freq": freq,
+                    })
+            categories.append(info)
+        print(yaml.dump(categories, sort_keys=False))
     else:
         parser.print_help()
 

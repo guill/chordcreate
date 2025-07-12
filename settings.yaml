@@ -1,0 +1,79 @@
+top_n: 2000
+max_chord_size: 6
+min_chord_size: 2
+skip_single_letter_words: true
+two_word_freq_threshold: 0.01
+extra_chord_keys:
+- DUP
+- "'"
+banned_chords:
+- sh
+- th
+- - i
+  - DUP
+explicit_chords:
+  at: ae
+categories:
+- name: tech
+  examples:
+  - technology
+  - node
+  - password
+  - image
+  - server
+  - network
+  - data
+  - computer
+  - internet
+  - software
+  - hardware
+  - packet
+  - cd
+  - grep
+  - ssh
+  - digital
+  - git
+  counterexamples: []
+  threshold: 0.15
+  freq_multiplier: 2.0
+  freq_offset: 0.0
+- name: names
+  examples:
+  - robert
+  - john
+  - kennedy
+  - ashley
+  - rebecca
+  - michael
+  - jones
+  counterexamples:
+  - smith
+  - fletcher
+  - brown
+  - jan
+  - tuesday
+  - friday
+  - june
+  - jun
+  - january
+  - mason
+  - genesis
+  - london
+  - paris
+  threshold: 0.25
+  freq_multiplier: 0.2
+  freq_offset: 0.0
+heuristic:
+  pairwise_cost: 0.0
+  different_direction_cost: 5.0
+  missing_first_letter_cost: 10.0
+  missing_second_letter_cost: 5.0
+  missing_last_letter_cost: 2.0
+  missing_any_letter_cost: 0.5
+  extra_chord_cost: 200.0
+  bad_letter_cost: 100.0
+  dup_without_duplicates_cost: 200.0
+  dup_without_chord_duplicates_cost: 30.0
+  base_weight: 0.2
+  modifier_relative_frequency: 30.0
+  frequency_exponent: 2.0
